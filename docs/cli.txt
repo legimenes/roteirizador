@@ -1,0 +1,11 @@
+* Structure
+
+dotnet new webapp --name Roteirizador -f netcoreapp3.1
+
+dotnet new sln --name Roteirizador
+dotnet sln add .\src\Roteirizador\Roteirizador.csproj
+
+
+* nuget packages
+
+dotnet add package FluentValidation --version 9.0.1
